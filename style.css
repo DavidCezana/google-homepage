@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: Arial, san-seirf
+	font: 12px;
+}
+
+img{
+	height:130px;
+	width: auto;
+	display:block;
+	margin: 170px auto 0 auto;
+}
+.container {
+	margin:0 auto;
+	text-align: center;
+}
+.search-bar .text{
+	height: 40px;
+	width: 500px;
+	
+}
+
+button{
+	list-style: none;
+	color: white;
+	background-color: blue;
+	padding: 8px 16px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	list-style: none;
+}
+
+.flex-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 10px 20px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.buttons{
+	margin-top: 30px;
+
+}
+.buttons .gog{
+	background: #E2E2E2;
+	color: #595959;
+}
+
+footer h3{
+	text-align: left;
+	color: #595959
+	
+}
+
+footer{
+	background-color: #e2e2e2;
+	padding:10px;
+	
+	display: block;
+	margin-top: 50px;
+	bottom: 0;
+}
+
+.container .footer{
+	bottom: 0;
+    
+    position: absolute;
+    width: 100%;
+}
